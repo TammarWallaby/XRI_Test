@@ -7,7 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class UIManager : MonoBehaviour
 {
     private GameObject canvas;
-    public GameObject mainCamera; // 카메라 이름을 mainCamera로 변경
+    public GameObject mainCamera;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +17,10 @@ public class UIManager : MonoBehaviour
 
         canvas.transform.position = mainCamera.transform.position + Vector3.forward * 5;
         canvas.transform.eulerAngles = mainCamera.transform.eulerAngles;
-        canvas.transform.parent = mainCamera.transform;
+
+        // 부모 설정 시, SetParent를 사용하여 로컬 좌표계를 유지
+        canvas.transform.SetParent(mainCamera.transform, false);
+
         canvas.SetActive(false);
     }
 
