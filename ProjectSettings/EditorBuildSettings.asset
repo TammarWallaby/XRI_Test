@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/__Scenes/DentVRTestScene.unity
+    guid: d0cef53002ad2e44581401a97d683d57
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 067336446b4cfb7429be76ff6317fd53, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7855bd1b738e7ff4eae72f3e50b89cf8, type: 2}

@@ -163,6 +163,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.DefaultCompany.VRTest_XRI
     Standalone: com.DefaultCompany.VRTest-XRI
+    iPhone: com.DefaultCompany.VRTest-XRI
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -943,7 +944,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 2
+  activeInputHandler: 1
   windowsGamepadBackendHint: 0
   cloudProjectId: 20559017-0180-4c7a-b59d-5982e3c1c015
   framebufferDepthMemorylessMode: 0
