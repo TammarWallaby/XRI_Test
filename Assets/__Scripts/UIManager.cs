@@ -6,8 +6,8 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class UIManager : MonoBehaviour
 {
-    public XRDirectInteractor leftDirectInteractor;
-    public XRDirectInteractor rightDirectInteractor;
+    public XRRayInteractor leftDirectInteractor;
+    public XRRayInteractor rightDirectInteractor;
     public GameObject settingsPanel; // 설정 패널 , 설정필수
     Image myButton;
     void Start()
