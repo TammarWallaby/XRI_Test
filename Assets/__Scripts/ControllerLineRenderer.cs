@@ -11,6 +11,8 @@ public class ControllerLineRenderer : MonoBehaviour
 
     public float lineLength;
 
+    
+
     private void Awake()
     {
         lineRenderer = GetComponent<LineRenderer>();
